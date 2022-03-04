@@ -1,0 +1,376 @@
+.background_main{
+    background-color:black;
+    position:fixed;
+    height: 200%;
+    width: 100%;
+
+}
+.background_yellow{   
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+    background-color: #ffb400;
+}
+#text_div{
+    color: #ffb400;
+}
+.overlay_try{
+    z-index: 9;
+    margin: 20px;
+}
+#homePageImage{
+    border-radius: 42px;
+    margin-left:50px;
+    width:500px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 90%);
+    
+}
+.content{
+    padding-top: 71px;
+}
+.x-scroll-disabled {
+	overflow-x: hidden;
+}
+.main_text{
+    
+    font-size: 50px;
+    line-height: 62px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    position: relative;
+    padding-left: 70px;
+    font-family: Poppins,sans-serif;
+    color:#ffb400
+}
+.navBtn{
+    border-radius: 50%;
+    border-width:0px;
+    background-color: #2b2a2a;
+    width:50px;
+    height:50px;
+    margin-top:20px
+}
+.nav_bar{
+    color:#111;
+    margin-top:;
+    margin-left:;
+}
+.icon_text{
+    color:white;
+}
+.menu_tab{
+    margin-top: 110px;
+    margin-left: 128px;
+}
+
+.button2:hover {
+    width: 135px;
+    height: 50px;
+    color: white;
+    border-radius: 50px;
+    margin-left: -79px;
+    background-color: #ffb400;
+    transition-duration: 400ms;
+  }
+  button2:hover span {
+    display: none
+  }
+  
+  button2:hover:before {
+    content: "ABOUT "
+  }
+  .contact{
+      
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: .7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: hsla(0,0%,100%,.07);
+    margin: -302px 450px;
+    font-family: Poppins,sans-serif;
+
+  }
+  .get_in_touch{
+        font-size: 56px;
+        font-weight: 900!important;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 37px 531px;
+        font-family: Poppins,sans-serif;
+  }
+  .contact_icon{
+      color:#ffb400;
+      font-size:33px;
+  }
+  .contact_icon_head{
+      margin-left:10px;
+      opacity:.6;
+  }
+  .contact_btn:hover{
+      background-color:#ffb400;
+
+  }
+  a{
+      text-decoration: none;
+      color:#111;
+      
+  }
+  .contact_name{
+    border-radius: 200px;
+    background-color: #2b2a2a;
+    width: 50%;
+    border-width: 0px;
+    height: 43px;
+    margin-left: -87px;
+    padding-left: 20px;
+  }
+  .contact_email{
+    border-radius:200px;
+    background-color:#2b2a2a;
+    width:60%;
+    border-width:0px;
+    height:43px;
+    margin-left:30px;
+    padding-left: 20px;
+
+
+  }
+  .contact_sub{
+    border-radius:200px;
+    background-color:#2b2a2a;
+    width:116%;
+    border-width:0px;
+    height:43px;
+    margin-top:30px;
+    margin-left:-85px;
+    padding-left:20px ;
+  }
+  .contact_msg{
+    border-radius:30px;
+    background-color:#2b2a2a;
+    width:116%;
+    border-width:0px;
+    height:200px;
+    margin-top:30px;
+    margin-left:-85px;
+    padding-left:20px;
+    padding-top:-30px;
+  }
+  .contact_header{
+    margin-left: 1160px;
+    margin-top: -615px;
+  }
+  .about_header{
+    
+    margin-left: 1160px;
+    margin-top: -416px;
+  }
+  .tile_border{
+    border-radius:5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#2b2a2a;
+
+  }
+
+
+
+
+
+
+
+
+  .flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .single-chart {
+    width: 12%;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 0.8px;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.orange .circle {
+    stroke: #ffb400;
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #ffb400;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke: #ffb400;
+  }
+  
+  .percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+  .chart_margin{
+    margin-left:140px
+  }
+  
+  .about_briefcase{
+    color:#eee
+  }
+  .about_briefcase_round{
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    border-width:0px;
+  }
+  .about_date{
+    height:20px;
+    text-align:justify;
+    background-color:#2b2a2a;
+    border-width:0px;
+    color:grey;
+    font-weight:bolder;
+    border-radius:10px;
+    padding-left:5px;
+    padding-bottom: 20px;
+    font-size:12px;
+  }
+  .about_education_header{
+    color:white;
+    margin-left:50px;
+    font-size:20px;
+  }
+
+
+  .vl_1 {
+    border-left: 1px solid #333;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -553px;
+    margin-top: -96px;
+    background-color: #666;
+  }
+
+  .vl_2 {
+    border-left: 1px solid #333;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -553px;
+    margin-top: -96px;
+    background-color: #666;
+  }
+
+  .vr_1 {
+    border-left: 1px solid #333;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: 107px;
+    margin-top: -96px;
+    background-color: #666;
+  }
+
+  .vr_2 {
+    border-left: 1px solid #333;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: 107px;
+    margin-top: -96px;
+    background-color: #666;
+  }
+  .institution{
+    opacity: 0.4;
+    font-size:17px;
+  }
+  .about_description{
+    margin-left:50px;
+    color:white;
+
+  }
+  .post_tile{
+    background-color: #252525;
+    width: 310px;
+    height: 450px;
+  }
+  .img{
+    width:100%;
+    border-width: 0px;
+    border-bottom: #ffb400;
+  }
+  .border1{
+    border-left: 6px solid #ffb400;
+    height: 103px;
+    position: absolute;
+    left: 50%;
+    margin-left: -559px;
+    margin-top: 22px;
+    background-color: #ffb400;
+  }
+  .postText{
+    color:#eee;
+    margin-left:30px;
+    margin-top:20px;
+    font-weight:300;
+  }
+  .border2{
+    border-left: 6px solid #ffb400;
+    height: 106px;
+    position: absolute;
+    left: 50%;
+    margin-left: -220px;
+    margin-top: 20px;
+    background-color: #ffb400;
+   }
+   .border3{
+    border-left: 6px solid #ffb400;
+    height: 106px;
+    position: absolute;
+    left: 50%;
+    margin-left: 112px;
+    margin-top: 24px;
+    background-color: #ffb400;
+   }
+   .menu_tab1{
+    margin-top: 381px;
+    margin-left: -939px;
+}
+body{
+  overflow-x: hidden; 
+
+}
